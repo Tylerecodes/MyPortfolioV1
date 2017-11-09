@@ -3,6 +3,11 @@ body {
   height: 100%;
 }
 
+.navbar-nav {
+
+}
+
+
 #cover{
   background: #222 url('../Images/bg.jpg') center center no-repeat;
   background-size: cover;
@@ -21,8 +26,9 @@ body {
   padding: 10rem 0;
 }
 
-#aboutme{
+#about{
   background: url("../Images/bg2.jpg") center top no-repeat;
+  height: 100%;
   background-size: cover;
 }
 
