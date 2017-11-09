@@ -3,10 +3,9 @@ body {
   height: 100%;
 }
 
-.navbar-nav {
-
-}
-
+/* #header .container {
+  padding: 0px;
+} */
 
 #cover{
   background: #222 url('../Images/bg.jpg') center center no-repeat;
