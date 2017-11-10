@@ -44,7 +44,7 @@ img {
   font-weight: bold;
 }
 
-.feature-content h1{
+.feature-content h1 {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -55,22 +55,37 @@ img {
   overflow: hidden;
 }
 
+.feature-dark {
+  background: #262f36;
+  color: white;
+}
+
+.feature-alt {
+  background: #f0f0f0;
+}
+@ screen and (min-width : 991px)  {
+  .feature-content {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .section-content {
   padding: 10rem 0;
 }
 
-#about{
+/* #about{
   background: url("../Images/bg2.jpg") center top no-repeat;
   height: 100%;
   background-size: cover;
 }
 
-#aboutme .container{
+#aboutme.container{
   align-content: right;
 }
 
 .about-text {
   background: rgba(0,0,0,.8);
   color: white;
-  padding: 1.875rem;
+  padding: 1.875rem; */
 }
