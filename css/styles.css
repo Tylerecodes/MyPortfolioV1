@@ -44,6 +44,17 @@ img {
   font-weight: bold;
 }
 
+.feature-content h1{
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.feature-content {
+  padding: 8rem 0;
+  overflow: hidden;
+}
+
 .section-content {
   padding: 10rem 0;
 }
