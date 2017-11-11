@@ -19,11 +19,6 @@ color: #6c6f73;
   margin: 1rem 0 0;
 }
 
-/* img {
-  max-width: 100%
-} */
-
-
 #cover {
   background: #222 url('../Images/bg.jpg') center center no-repeat;
   background-size: cover;
