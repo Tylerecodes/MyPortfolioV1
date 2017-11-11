@@ -19,18 +19,10 @@ color: #6c6f73;
   margin: 1rem 0 0;
 }
 
-img {
+/* img {
   max-width: 100%
-}
+} */
 
-.navbar-brand.fixed-theme,
-.navbar-container.fixed-theme,
-.navbar.navbar-fixed-top.fixed-theme,
-.navbar-brand,
-.navbar-container{
-    transition: 0.8s;
-    -webkit-transition:  0.8s;
-}
 
 #cover {
   background: #222 url('../Images/bg.jpg') center center no-repeat;
