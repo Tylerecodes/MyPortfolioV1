@@ -70,18 +70,7 @@ color: #6c6f73;
   padding: 10rem 0;
 }
 
-/* #about{
-  background: url("../Images/bg2.jpg") center top no-repeat;
-  height: 100%;
-  background-size: cover;
-}
-
-#aboutme.container{
-  align-content: right;
-}
-
-.about-text {
-  background: rgba(0,0,0,.8);
-  color: white;
-  padding: 1.875rem; */
+.feature-four.container {
+  display: flex;
+  align-items: center;
 }
