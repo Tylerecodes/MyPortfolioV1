@@ -19,6 +19,20 @@ color: #6c6f73;
   margin: 1rem 0 0;
 }
 
+.navbar {
+  height: 70px;
+  background: transparent; // Transparent initial setting
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s;
+}
+
+.navbar.shrink {
+  height: 70px;
+  transition: all ease .5s;
+  background: black; // Change background to black on scroll
+}
+
 #cover {
   background: #222 url('../Images/bg.jpg') center center no-repeat;
   background-size: cover;
