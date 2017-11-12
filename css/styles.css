@@ -10,7 +10,7 @@ position: relative;
 }
 
 .blockquote {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: #333;
   border: none;
   padding: 0;
@@ -51,7 +51,7 @@ position: relative;
 }
 
 #cover-caption {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 200;
   max-width: 60rem;
   margin: 0 auto;
