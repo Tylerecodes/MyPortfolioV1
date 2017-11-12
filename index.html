@@ -17,32 +17,30 @@
   <body>
 
     <!-- Navbar -->
-    <header id="header" class="fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <button class="navbar-toggler navbar-toggler-dark ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse page-scroll" id="navbarTogglerDemo03">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#cover">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
+    <nav id = "navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <button class="navbar-toggler navbar-toggler-dark ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#cover">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
               <a class="nav-link" href="#feature-one">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#feature-two">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#feature-three">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-primary" href="#feature-four">Contact Me</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#feature-two">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#feature-three">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#feature-four">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <!--Introduction-->
     <section id="cover">
@@ -55,77 +53,79 @@
         </div>
       </section>
 
-    <!--About Me-->  
-    <section id="feature-one">
-      <div class="container">
-        <div class="feature-content">
-          <div class="row">
-            <div class="col-lg-6">
-              <img src="Images/bg2.jpg" class = "img-fluid" alt="Responsive image">
-            </div>
-            <div class="col-lg-5 offset-lg-1">
-              <h6>Hello!</h6>
-              <h2> Let's do this!</h2>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et itaque consequatur facere. Consequatur, dolorum! Magni unde dolores quo nulla delectus ad, officia, repellat, impedit eveniet recusandae ab exercitationem maxime.</p>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque fugit esse voluptas repellendus. Voluptas culpa id natus. Nesciunt, natus cupiditate! Nam assumenda maxime culpa blanditiis vel necessitatibus similique officiis tempora?</p>
-              <a href="" class="btn btn-sm btn-outline-secondary">Twitter</a>
-              <a href="https://www.facebook.com/tyler.estes1" class="btn btn-sm btn-outline-secondary">Facebook</a>
-              <a href="https://www.instagram.com/gregorytylerestes/?hl=en" class="btn btn-sm btn-outline-secondary">Instagram</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--Skills-->
-    <section id="feature-two" class="feature-dark">
-      <div class="container">
-        <div class="feature-content">
-          <div class="row">
-            <div class="col-lg-6 feature-caption">
-              <h6>Incredible Feature</h6>
-              <h2>totally random website. At the touch of finger.</h2>
-              <p class="lead"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa dolor, quis eum atque id molestiae odit? Accusamus animi possimus facere reiciendis modi culpa vitae tempore, eos at porro maiores voluptate!</p>
-            </div>
-            <div class="col-lg-6 text-sm-center hidden-md-down">
-              <img src="Images/bg.jpg" class = "img-fluid" alt="Personal Photo">
+    <div data-spy="scroll" data-target="#navbar" data-offset="0">
+      <!--About Me-->  
+      <section id="feature-one">
+        <div class="container">
+          <div class="feature-content">
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="Images/bg2.jpg" class = "img-fluid" alt="Responsive image">
+              </div>
+              <div class="col-lg-5 offset-lg-1">
+                <h6>Hello!</h6>
+                <h2> Let's do this!</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et itaque consequatur facere. Consequatur, dolorum! Magni unde dolores quo nulla delectus ad, officia, repellat, impedit eveniet recusandae ab exercitationem maxime.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque fugit esse voluptas repellendus. Voluptas culpa id natus. Nesciunt, natus cupiditate! Nam assumenda maxime culpa blanditiis vel necessitatibus similique officiis tempora?</p>
+                <a href="" class="btn btn-sm btn-outline-secondary">Twitter</a>
+                <a href="https://www.facebook.com/tyler.estes1" class="btn btn-sm btn-outline-secondary">Facebook</a>
+                <a href="https://www.instagram.com/gregorytylerestes/?hl=en" class="btn btn-sm btn-outline-secondary">Instagram</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!--Resume-->
-    <section id="feature-three">
-      <div class="container">
-        <div class="feature-content">
-          <div class="row">
-            <div class="col-lg-6 hidden-md-down">
-              <img src="Images/bg.jpg" class = "img-fluid" alt="Personal Photo">
-            </div>
-            <div class="col-lg-5 offset-lg-1">
-              <h6>The wow factor</h6>
-              <h2>Australians wouldn't give a startup.logo</h2>
-              <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolore impedit, repellat doloremque quam non earum possimus rerum, magnam ducimus voluptate autem, dignissimos ratione similique est amet accusantium consequatur maxime!</p>
+      <!--Skills-->
+      <section id="feature-two" class="feature-dark">
+        <div class="container">
+          <div class="feature-content">
+            <div class="row">
+              <div class="col-lg-6 feature-caption">
+                <h6>Incredible Feature</h6>
+                <h2>totally random website. At the touch of finger.</h2>
+                <p class="lead"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa dolor, quis eum atque id molestiae odit? Accusamus animi possimus facere reiciendis modi culpa vitae tempore, eos at porro maiores voluptate!</p>
+              </div>
+              <div class="col-lg-6 text-sm-center hidden-md-down">
+                <img src="Images/bg.jpg" class = "img-fluid" alt="Personal Photo">
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!--Contact-->
-    <section id="feature-four" class = "feature-alt">
-      <div class="container">
-        <div class="col-md-4 offset-md-4">
-          <!--Form-->
-            <div class="form-group">
-              <p>Phone: 972-358-7781</p>
-            <a href = "mailto:tyler@tylerecodes.com" class = "btn btn-primary btn-lg" role = "button"> Contact Me </a>
+      <!--Resume-->
+      <section id="feature-three">
+        <div class="container">
+          <div class="feature-content">
+            <div class="row">
+              <div class="col-lg-6 hidden-md-down">
+                <img src="Images/bg.jpg" class = "img-fluid" alt="Personal Photo">
+              </div>
+              <div class="col-lg-5 offset-lg-1">
+                <h6>The wow factor</h6>
+                <h2>Australians wouldn't give a startup.logo</h2>
+                <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolore impedit, repellat doloremque quam non earum possimus rerum, magnam ducimus voluptate autem, dignissimos ratione similique est amet accusantium consequatur maxime!</p>
+              </div>
             </div>
-          </form>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <!--Contact-->
+      <section id="feature-four" class = "feature-alt">
+        <div class="container">
+          <div class="col-md-4 offset-md-4">
+            <!--Form-->
+              <div class="form-group">
+                <p>Phone: 972-358-7781</p>
+              <a href = "mailto:tyler@tylerecodes.com" class = "btn btn-primary btn-lg" role = "button"> Contact Me </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

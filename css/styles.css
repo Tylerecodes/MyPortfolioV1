@@ -6,6 +6,7 @@ body {
 body {
 text-rendering: optimizeLegibility;
 color: #6c6f73;
+position: relative;
 }
 
 .blockquote {
@@ -29,6 +30,12 @@ color: #6c6f73;
 
 .navbar.shrink {
   height: 70px;
+  transition: all ease .5s;
+  background: black; // Change background to black on scroll
+}
+
+.collapse.shrink {
+  width: 100%
   transition: all ease .5s;
   background: black; // Change background to black on scroll
 }
