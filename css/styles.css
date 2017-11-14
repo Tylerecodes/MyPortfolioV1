@@ -18,14 +18,8 @@ position: relative;
   padding: 0;
 }
 
-.blockquote-footer {
-  margin: 1rem 0 0;
-}
-
-
 /*---------- Navbar -----------*/
 .navbar {
-  height: 70px;
   background: transparent; // Transparent initial setting
   width: 100%;
   z-index: 99999;
@@ -33,13 +27,13 @@ position: relative;
 }
 
 .navbar.shrink {
-  height: 70px;
+  width: 100%;
   transition: all ease .5s;
   background: black; // Change background to black on scroll
 }
 
 .collapse.shrink {
-  width: 100%
+  width: 100%;
   transition: all ease .5s;
   background: black; // Change background to black on scroll
 }
