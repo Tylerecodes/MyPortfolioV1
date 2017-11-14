@@ -75,8 +75,12 @@ position: relative;
 }
 
 .feature-content {
-  padding: 7rem 0;
+  padding: 5rem 0;
   overflow: hidden;
+}
+
+#feature-two .feature-content {
+  padding: 5rem 1rem 0 0;
 }
 
 .feature-dark {
@@ -103,6 +107,13 @@ position: relative;
 .feature-four.container {
   display: flex;
   align-items: center;
+}
+
+
+/*---------- Devicons -----------*/
+.devicon {
+  max-width: 5em;
+
 }
 
 /*---------- Contact -----------*/
