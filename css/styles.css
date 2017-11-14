@@ -77,9 +77,15 @@ position: relative;
   color: white;
 }
 
+.feature-gray {
+  background: #5b6369;
+  color: white;
+}
+
 .feature-alt {
   background: #f0f0f0;
 }
+
 @ screen and (min-width : 991px)  {
   .feature-content {
     display: flex;
@@ -94,4 +100,237 @@ position: relative;
 .feature-four.container {
   display: flex;
   align-items: center;
+}
+
+/*---------- g. contact -----------*/
+#feature-four {padding: 120px 0 200px 0;}
+#feature-four form {
+  margin-top: 25px;
+}
+#feature-four .slider-masks {
+  background-color: rgba(129, 129, 129, 0.7);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#feature-four .group {
+  position: relative;
+  margin-bottom: 65px;
+}
+#feature-four input,
+#feature-four textarea {
+  font-size: 13px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #2b2b2b;
+  background: transparent;
+  color: #969696;
+  font-size: 13px;
+}
+#feature-four input:focus,
+#feature-four textarea:focus {
+  outline: none;
+  border-bottom: none;
+}
+#feature-four label {
+  color: #2b2b2b;
+  font-size: 14px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+#feature-four input:focus ~ label,
+#feature-four input:valid ~ label,
+#feature-four textarea:focus ~ label,
+#feature-four textarea:valid ~ label {
+  top: -25px;
+  font-size: 12px;
+  color: #818181;
+}
+#feature-four .bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+#feature-four .bar:before,
+#feature-four .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #818181;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+#feature-four .bar:before {
+  left: 50%;
+}
+#feature-four .bar:after {
+  right: 50%;
+}
+#feature-four input:focus ~ .bar:before,
+#feature-four input:focus ~ .bar:after,
+#feature-four textarea:focus ~ .bar:after,
+#feature-four textarea:focus ~ .bar:before {
+  width: 50%;
+}
+#feature-four .highlight {
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+#feature-four input:focus ~ .highlight,
+#feature-four textarea:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+#feature-four input[type=submit] {
+  border: 1px solid #2b2b2b !important;
+  color: #2b2b2b;
+  padding: 10px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+#feature-four input[type=submit]:hover {
+  background: #2b2b2b;
+  color: #ffffff;
+}
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #5264AE;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #818181;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@keyframes inputHighlighter {
+  from {
+    background: #818181;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+/*-------------- h. footer ------------------*/
+.footer{
+  width: 100%;
+  text-align: center;
+  color: #cccccc;
+  display: table;
+}
+
+.socials{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.socials * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.socials li {
+  display: inline-block;
+  list-style: outside none none;
+  float: left;
+  overflow: hidden;
+  width: 33.33333%;
+  font-size: 13px;
+}
+
+.socials a {
+  padding: 0.3em 0.8em;
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.socials a:before,
+.socials a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.socials a:before {
+  bottom: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+}
+
+.socials a:after {
+  padding: 0.3em 0.8em;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: white;
+  white-space: nowrap;
+  width: 100%;
+  padding: 25px 0;
+}
+
+.socials li:hover a,
+.socials .current a {
+  transform: translateY(100%);
+}
+
+.facebook{
+  background: #969696;
+  /*padding: 20px 0;*/
+}
+.facebook a:after{
+  background-color: #527bbb;
+}
+.twitter{
+  background: #ABABAB;
+}
+.twitter a:after{
+  background-color: #77ccf1;
+}
+.gplus{
+  background: #d8d8d8;
+}
+.gplus a:after{
+  background: #dd4b39;
 }
