@@ -7,15 +7,7 @@ body {
 
 body {
 text-rendering: optimizeLegibility;
-color: #6c6f73;
 position: relative;
-}
-
-.blockquote {
-  font-size: 1.2rem;
-  color: #333;
-  border: none;
-  padding: 0;
 }
 
 /*---------- Navbar -----------*/
@@ -62,18 +54,26 @@ position: relative;
 
 
 /*---------- Feature Sections One-Three -----------*/
-.feature-content h1 {
+/* .feature-content h1 {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
-}
+} */
 
 .feature-content {
   padding: 5rem 0;
   overflow: hidden;
 }
 
-#feature-two .feature-content {
+#feature-skills {
+  color: white;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#feature-skills .feature-title {
   padding: 5rem 1rem 0 0;
 }
 
@@ -87,10 +87,6 @@ position: relative;
   color: white;
 }
 
-.feature-alt {
-  background: #f0f0f0;
-}
-
 @ screen and (min-width : 991px)  {
   .feature-content {
     display: flex;
@@ -98,24 +94,17 @@ position: relative;
   }
 }
 
-.feature-four.container {
-  display: flex;
-  align-items: center;
-}
-
-
 /*---------- Devicons -----------*/
 .devicon {
   max-width: 5em;
-
 }
 
 /*---------- Contact -----------*/
-#feature-four {padding: 120px 0 200px 0;}
-#feature-four form {
+#feature-contact {padding: 120px 0 200px 0;}
+#feature-contact form {
   margin-top: 25px;
 }
-#feature-four .slider-masks {
+#feature-contact .slider-masks {
   background-color: rgba(129, 129, 129, 0.7);
   height: 100%;
   left: 0;
@@ -123,29 +112,29 @@ position: relative;
   top: 0;
   width: 100%;
 }
-#feature-four .group {
+#feature-contact .group {
   position: relative;
   margin-bottom: 65px;
 }
-#feature-four input,
-#feature-four textarea {
+#feature-contact input,
+#feature-contact textarea {
   font-size: 13px;
   padding: 10px 10px 10px 5px;
   display: block;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #2b2b2b;
+  border-bottom: 1px solid white;
   background: transparent;
   color: #969696;
   font-size: 13px;
 }
-#feature-four input:focus,
-#feature-four textarea:focus {
+#feature-contact input:focus,
+#feature-contact textarea:focus {
   outline: none;
   border-bottom: none;
 }
-#feature-four label {
-  color: #2b2b2b;
+#feature-contact label {
+  color: white;
   font-size: 14px;
   font-weight: normal;
   position: absolute;
@@ -156,21 +145,21 @@ position: relative;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
 }
-#feature-four input:focus ~ label,
-#feature-four input:valid ~ label,
-#feature-four textarea:focus ~ label,
-#feature-four textarea:valid ~ label {
+#feature-contact input:focus ~ label,
+#feature-contact input:valid ~ label,
+#feature-contact textarea:focus ~ label,
+#feature-contact textarea:valid ~ label {
   top: -25px;
   font-size: 12px;
   color: #818181;
 }
-#feature-four .bar {
+#feature-contact .bar {
   position: relative;
   display: block;
   width: 100%;
 }
-#feature-four .bar:before,
-#feature-four .bar:after {
+#feature-contact .bar:before,
+#feature-contact .bar:after {
   content: '';
   height: 2px;
   width: 0;
@@ -181,19 +170,19 @@ position: relative;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
 }
-#feature-four .bar:before {
+#feature-contact .bar:before {
   left: 50%;
 }
-#feature-four .bar:after {
+#feature-contact .bar:after {
   right: 50%;
 }
-#feature-four input:focus ~ .bar:before,
-#feature-four input:focus ~ .bar:after,
-#feature-four textarea:focus ~ .bar:after,
-#feature-four textarea:focus ~ .bar:before {
+#feature-contact input:focus ~ .bar:before,
+#feature-contact input:focus ~ .bar:after,
+#feature-contact textarea:focus ~ .bar:after,
+#feature-contact textarea:focus ~ .bar:before {
   width: 50%;
 }
-#feature-four .highlight {
+#feature-contact .highlight {
   position: absolute;
   height: 60%;
   width: 100%;
@@ -202,15 +191,15 @@ position: relative;
   pointer-events: none;
   opacity: 0.5;
 }
-#feature-four input:focus ~ .highlight,
-#feature-four textarea:focus ~ .highlight {
+#feature-contact input:focus ~ .highlight,
+#feature-contact textarea:focus ~ .highlight {
   -webkit-animation: inputHighlighter 0.3s ease;
   -moz-animation: inputHighlighter 0.3s ease;
   animation: inputHighlighter 0.3s ease;
 }
-#feature-four input[type=submit] {
-  border: 1px solid #2b2b2b !important;
-  color: #2b2b2b;
+#feature-contact input[type=submit] {
+  border: 1px solid white !important;
+  color: white;
   padding: 10px;
   font-weight: 700;
   letter-spacing: 0.9px;
@@ -219,7 +208,7 @@ position: relative;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
 }
-#feature-four input[type=submit]:hover {
+#feature-contact input[type=submit]:hover {
   background: #2b2b2b;
   color: #ffffff;
 }
