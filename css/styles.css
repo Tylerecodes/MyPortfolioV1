@@ -1,3 +1,5 @@
+
+/*---------- Optimize Body / Cleanup Bootstrap defaults -----------*/
 html,
 body {
   height: 100%;
@@ -20,6 +22,8 @@ position: relative;
   margin: 1rem 0 0;
 }
 
+
+/*---------- Navbar -----------*/
 .navbar {
   height: 70px;
   background: transparent; // Transparent initial setting
@@ -40,6 +44,7 @@ position: relative;
   background: black; // Change background to black on scroll
 }
 
+/*---------- Cover -----------*/
 #cover {
   background: #222 url('../Images/bg.jpg') center center no-repeat;
   background-size: cover;
@@ -61,6 +66,8 @@ position: relative;
   font-weight: bold;
 }
 
+
+/*---------- Feature Sections One-Three -----------*/
 .feature-content h1 {
   color: white;
   font-weight: bold;
@@ -68,7 +75,7 @@ position: relative;
 }
 
 .feature-content {
-  padding: 8rem 0;
+  padding: 7rem 0;
   overflow: hidden;
 }
 
@@ -93,16 +100,12 @@ position: relative;
   }
 }
 
-.section-content {
-  padding: 10rem 0;
-}
-
 .feature-four.container {
   display: flex;
   align-items: center;
 }
 
-/*---------- g. contact -----------*/
+/*---------- Contact -----------*/
 #feature-four {padding: 120px 0 200px 0;}
 #feature-four form {
   margin-top: 25px;
@@ -242,7 +245,7 @@ position: relative;
     background: transparent;
   }
 }
-/*-------------- h. footer ------------------*/
+/*-------------- Footer ------------------*/
 .footer{
   width: 100%;
   text-align: center;
