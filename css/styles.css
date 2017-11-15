@@ -68,7 +68,10 @@ from Bootstrap Grid ----------------------------*/
   font-weight: bold;
 }
 
-/*---------- Feature Sections One-Three -----------*/
+/*---------- Feature Sections -----------*/
+h2 {
+  
+}
 
 .feature-content {
   padding: 5rem 0;
