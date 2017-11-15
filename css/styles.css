@@ -1,5 +1,6 @@
 
-/*---------- Optimize Body / Cleanup Bootstrap defaults -----------*/
+/*-------------- Optimize Body / Cleanup Bootstrap
+defaults ---------------------------------------*/
 html,
 body {
   height: 100%;
@@ -10,7 +11,22 @@ text-rendering: optimizeLegibility;
 position: relative;
 }
 
-/*---------- Navbar -----------*/
+/*---------- Remove predefined margins and padding 
+from Bootstrap Grid ----------------------------*/
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/*---------- Navbar Section ---------------
+------------------------------------------*/
+
 .navbar {
   background: transparent; // Transparent initial setting
   width: 100%;
@@ -43,7 +59,7 @@ position: relative;
 
 #cover-caption {
   font-size: 1.2rem;
-  font-weight: 200;
+  font-weight: 100;
   max-width: 60rem;
   margin: 0 auto;
 }
@@ -52,29 +68,29 @@ position: relative;
   font-weight: bold;
 }
 
-
 /*---------- Feature Sections One-Three -----------*/
-/* .feature-content h1 {
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-} */
 
 .feature-content {
   padding: 5rem 0;
+  height: 100%;
   overflow: hidden;
 }
 
 #feature-skills {
   color: white;
-  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#feature-services {
   text-align: center;
   display: flex;
   align-items: center;
 }
 
 #feature-skills .feature-title {
-  padding: 5rem 1rem 0 0;
+  padding: 5rem 2rem 0 0;
 }
 
 .feature-dark {
@@ -85,13 +101,6 @@ position: relative;
 .feature-gray {
   background: #5b6369;
   color: white;
-}
-
-@ screen and (min-width : 991px)  {
-  .feature-content {
-    display: flex;
-    align-items: center;
-  }
 }
 
 /*---------- Devicons -----------*/
