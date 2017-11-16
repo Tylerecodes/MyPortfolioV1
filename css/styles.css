@@ -34,6 +34,11 @@ from Bootstrap Grid ----------------------------*/
   transition: all ease .5s;
 }
 
+#navbar a {
+  font-family: 'Roboto', sans-serif;
+  font-size: medium;
+}
+
 .navbar.shrink {
   width: 100%;
   transition: all ease .5s;
@@ -66,12 +71,26 @@ from Bootstrap Grid ----------------------------*/
 
 #cover-caption h1 {
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*---------- Feature Sections -----------*/
 
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+h2 {
+  padding: 0 0 1em 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+p .lead{
+  font-family: "Open Sans", sans-serif;
+}
+
 .feature-content {
-  padding: 5rem 0;
+  padding: 4rem 0;
   height: 100%;
   overflow: hidden;
 }
@@ -84,14 +103,14 @@ from Bootstrap Grid ----------------------------*/
   justify-content: center;
 }
 
+#feature-skills .lead {
+  padding: 0 0 1em 0;
+}
+
 #feature-services {
   text-align: center;
   display: flex;
   align-items: center;
-}
-
-#feature-skills .feature-title {
-  padding: 5rem 2rem 0 0;
 }
 
 .feature-dark {
@@ -110,10 +129,16 @@ from Bootstrap Grid ----------------------------*/
 }
 
 /*---------- Contact -----------*/
-#feature-contact {padding: 120px 0 200px 0;}
+#feature-contact {padding: 0px 0 200px 0}
 #feature-contact form {
   margin-top: 25px;
 }
+
+#feature-contact .group{
+  font-family: 'Open-Sans', sans-serif;
+  font-size: medium;
+}
+
 #feature-contact .slider-masks {
   background-color: rgba(129, 129, 129, 0.7);
   height: 100%;
@@ -256,6 +281,12 @@ from Bootstrap Grid ----------------------------*/
   color: #cccccc;
   display: table;
 }
+
+.footer a {
+  font-family: 'Roboto', sans-serif;
+  font-size: medium;
+}
+
 
 .socials{
   width: 100%;
