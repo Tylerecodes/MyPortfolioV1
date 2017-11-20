@@ -12,8 +12,6 @@ $(document).ready(function() {
     }
   });
 
-
-
   //Scrollspy on navbar while scrolling//
   $('body').scrollspy({ target: '#navbar' })
 
