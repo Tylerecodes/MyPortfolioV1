@@ -2,7 +2,8 @@
 /*-------------- Optimize Body / Cleanup Bootstrap
 defaults ---------------------------------------*/
 html,
-body {
+body,
+#cover {
   height: 100%;
 }
 
@@ -56,21 +57,23 @@ from Bootstrap Grid ----------------------------*/
   background: #222 url('../Images/bg1.jpg') center center no-repeat;
   background-size: cover;
   color: white;
-  height: 100%;
   width: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;
+  display: table;
+  box-shadow: inset 0 0 100px #000;
 }
 
 #cover-caption {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
   font-size: 1.2rem;
   font-weight: 100;
   max-width: 60rem;
-  margin: 0 auto;
 }
 
 #cover-caption h1 {
+  margin: 0;
+  letter-spacing: -3px;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
 }
