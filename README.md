@@ -1,3 +1,3 @@
 # Portfolio
 
-My First personal website back in 2017 as I was first getting introudced to development.
+My first personal website back in 2017 as I was just getting introudced to development.
